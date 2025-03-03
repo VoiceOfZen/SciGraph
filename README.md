@@ -1,22 +1,21 @@
-# SciGraph
+# SciGraph  
 
-РАЗРАБОТКА МЕТОДОЛОГИИ И ПРОГРАММЫ ФОРМИРОВАНИЯ ДАТАСЕТА ДЛЯ ОБУЧЕНИЯ НЕЙРОННЫХ СЕТЕЙ ИНТЕГРИРОВАТЬ НАУЧНУЮ ГРАФИКУ
+## **Development of a Methodology and Program for Creating a Dataset to Train Neural Networks to Integrate Scientific Graphics**  
 
-Формирование датасета научной графики из PDF
+### **Scientific Graphics Dataset Extraction from PDFs**  
 
-Описание проекта
+## **Project Description**  
+This project focuses on developing a methodology and software for the automated creation of a dataset containing scientific graphics (e.g., graphs and charts) extracted from PDF documents. The dataset is designed for training neural networks, which can be used for automatic analysis and recognition of scientific graphs.  
 
-Данный проект посвящен разработке методологии и программы для автоматизированного формирования датасета, содержащего изображения научной графики (например, графиков и диаграмм) из PDF-документов. Этот датасет предназначен для обучения нейронных сетей, что может использоваться в задачах автоматического анализа и распознавания научных графиков.
+## **Key Features**  
+- **Image Extraction:** Automatic parsing of PDF documents and extraction of images related to scientific graphics.  
+- **Filtering and Classification:** Selection of relevant images and filtering out non-graphical elements (e.g., logos, schematics).  
+- **Data Annotation:** Generation of annotations (metadata) for further use in training neural networks.  
+- **Flexibility and Scalability:** Ability to adapt the methodology for different types of scientific articles and publications.  
 
-Основные возможности:
-	•	Извлечение изображений: Автоматический парсинг PDF-документов и извлечение изображений, относящихся к научной графике.
-	•	Фильтрация и классификация: Отбор релевантных изображений, фильтрация не относящихся к графикам элементов (например, логотипов, схем).
-	•	Разметка данных: Генерация аннотаций (метаданных) для дальнейшего использования в обучении нейросетей.
-	•	Гибкость и масштабируемость: Возможность адаптации методологии под различные типы научных статей и публикаций.
+## **Technologies Used**  
+- **Python, OpenCV, PyMuPDF** (for working with PDFs)  
+- **Machine Learning/Deep Learning** (for potential automated image classification)  
+- **JSON/XML** (for metadata storage)  
 
-Используемые технологии:
-	•	Python, OpenCV, PyMuPDF (для работы с PDF)
-	•	Machine Learning/Deep Learning (для возможной автоматической классификации изображений)
-	•	JSON/XML (для хранения метаданных)
-
-Проект разрабатывается в рамках дипломной работы и ориентирован на исследователей, специалистов по обработке научных данных и разработчиков в области искусственного интеллекта.
+This project is being developed as part of a graduation thesis and is aimed at researchers, scientific data processing specialists, and AI developers.
