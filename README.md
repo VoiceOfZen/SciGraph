@@ -62,6 +62,6 @@ python extract_graphs.py --pdf-folder path/to/pdfs --output-folder path/to/outpu
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-CHANGE THIS PART by me
 
-**This project is part of a graduation thesis focused on AI-driven scientific data processing.** 
+**It is developed as part of a graduation thesis focused on AI-driven scientific data processing.**
+
