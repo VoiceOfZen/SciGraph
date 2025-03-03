@@ -4,6 +4,8 @@
 
 SciGraph is a project focused on developing a methodology and software for automatically creating a dataset of scientific graphs extracted from PDF documents. This dataset is designed to train neural networks for tasks related to the automatic analysis and recognition of scientific graphics.
 
+**Goal**: To create an automated system for extracting, classifying, and annotating scientific graphs from PDFs to build a high-quality dataset for AI training.
+
 ## Challenges in Extracting Scientific Graphics
 
 Extracting scientific graphs from PDFs is far from trivial. Here are the main challenges:
@@ -18,6 +20,14 @@ Extracting scientific graphs from PDFs is far from trivial. Here are the main ch
 ✅ **Graph Identification** – Uses filtering techniques to isolate graphs from other images.  
 ✅ **Metadata Annotation** – Attempts to link extracted images with their descriptions.  
 ✅ **Flexible and Scalable** – Can be adapted to different types of research papers and scientific disciplines.  
+
+##  Technologies Used
+
+ **Programming:** Python  
+ **PDF Processing:** PyMuPDF  
+ **Image Processing:** OpenCV, PIL  
+ **AI for Classification:** Machine Learning/Deep Learning  
+ **Metadata Storage:** JSON/XML  
 
 ## Installation
 
@@ -44,6 +54,14 @@ python extract_graphs.py --pdf-folder path/to/pdfs --output-folder path/to/outpu
 🔹 **OCR for Captions** – Use Optical Character Recognition to extract embedded text.  
 🔹 **Better Filtering Algorithms** – Improve the accuracy of identifying scientific graphs.  
 
+## 🌍 Localization
+
+🔹 English version (default)  
+🔹 [Русская версия (README.ru.md)](README.ru.md)  
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+CHANGE THIS PART by me
+
+**This project is part of a graduation thesis focused on AI-driven scientific data processing.** 
