@@ -21,14 +21,6 @@ Extracting scientific graphs from PDFs is far from trivial. Here are the main ch
 ✅ **Metadata Annotation** – Attempts to link extracted images with their descriptions.  
 ✅ **Flexible and Scalable** – Can be adapted to different types of research papers and scientific disciplines.  
 
-##  Technologies Used
-
- **Programming:** Python  
- **PDF Processing:** PyMuPDF  
- **Image Processing:** OpenCV, PIL  
- **AI for Classification:** Machine Learning/Deep Learning  
- **Metadata Storage:** JSON/XML  
-
 ## Installation
 
 1. Clone the repository:
@@ -53,6 +45,14 @@ python extract_graphs.py --pdf-folder path/to/pdfs --output-folder path/to/outpu
 🔹 **Machine Learning-based Graph Identification** – Train a model to detect graphs automatically.  
 🔹 **OCR for Captions** – Use Optical Character Recognition to extract embedded text.  
 🔹 **Better Filtering Algorithms** – Improve the accuracy of identifying scientific graphs.  
+
+##  Technologies Used
+
+ **Programming:** Python  
+ **PDF Processing:** PyMuPDF  
+ **Image Processing:** OpenCV, PIL  
+ **AI for Classification:** Machine Learning/Deep Learning  
+ **Metadata Storage:** JSON/XML  
 
 ## 🌍 Localization
 
