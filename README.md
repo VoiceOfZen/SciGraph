@@ -46,13 +46,13 @@ python extract_graphs.py --pdf-folder path/to/pdfs --output-folder path/to/outpu
 🔹 **OCR for Captions** – Use Optical Character Recognition to extract embedded text.  
 🔹 **Better Filtering Algorithms** – Improve the accuracy of identifying scientific graphs.  
 
-##  Technologies Used
+## Technologies Used
 
- **Programming:** Python  
- **PDF Processing:** PyMuPDF  
- **Image Processing:** OpenCV, PIL  
- **AI for Classification:** Machine Learning/Deep Learning  
- **Metadata Storage:** JSON/XML  
+- **Programming:** Python  
+- **PDF Processing:** PyMuPDF  
+- **Image Processing:** OpenCV, PIL  
+- **AI for Classification:** Machine Learning / Deep Learning  
+- **Metadata Storage:** JSON, XML  
 
 ## 🌍 Localization
 
