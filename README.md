@@ -56,8 +56,8 @@ python extract_graphs.py --pdf-folder path/to/pdfs --output-folder path/to/outpu
 
 ## 🌍 Localization
 
-🔹 English version (default)  
-🔹 [Русская версия (README.ru.md)](README.ru.md)  
+- English version (default)  
+- [Русская версия (README.ru.md)](README.ru.md)  
 
 ## License
 
