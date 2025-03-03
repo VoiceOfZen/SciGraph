@@ -1,0 +1,8 @@
+<script>
+  const userLang = navigator.language || navigator.userLanguage;
+  if (userLang.startsWith("ru")) {
+    window.location.href = "README.ru.md";
+  } else {
+    window.location.href = "README.md";
+  }
+</script>
